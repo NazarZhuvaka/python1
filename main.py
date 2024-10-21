@@ -32,3 +32,5 @@ print(a)
 
 
 print("the" in lines.lower())
+
+print("Test git")
