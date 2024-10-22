@@ -4,10 +4,10 @@
 # else:
 #     print("Relogin")
 
-a = "rrr ggg"
-if "ggg" in a:
-    print("if starts")
-    sum = 5 + 6
-    print(sum)
-print("if end.")
+# a = "rrr ggg"
+# if "ggg" in a:
+#     print("if starts")
+#     sum = 5 + 6
+#     print(sum)
+# print("if end.")
 
