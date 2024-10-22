@@ -1,3 +1,12 @@
-a = 5
-if a > 0: print("Good!")
+# a = True
+# if a: print("Good!")
+
+# Оператор pass
+
+# if True:
+#     pass
+# print("Ahoj")
+
+
+
 
