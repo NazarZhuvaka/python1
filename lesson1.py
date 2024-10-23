@@ -20,27 +20,20 @@
 # else:
 #     print("Парне")
 
-number = input("write number :")
-
-if number.isdigit:
-    print("This is num!")
-    num = float(number)
-
-    if num % 2:
-        print("Непарне")
-    elif num == 0:
-        print("Nula")
-    else:
-        print("Парне!")
-else:
-    print("This isn`t num")
-
-
-
-# if number % 2:
-#     print("Непарне")
+# number = input("write number :")
+#
+# if number.isdigit:
+#     print("This is num!")
+#     num = float(number)
+#
+#     if num % 2:
+#         print("Непарне")
+#     elif num == 0:
+#         print("Nula")
+#     else:
+#         print("Парне!")
 # else:
-#     print("Парне")
+#     print("This isn`t num")
 
 
 
