@@ -46,5 +46,24 @@ print(avg(*t))
 # Словник
 def summm(**kwargs):
     print(kwargs)
+    print(type(kwargs))
+    for key, val in kwargs.items():
+        print(key , '---->' , val)
+
+summm(one=1,two=2,name='Dima')
+
+slov = {'first':1, 'two':2}
+summm(**slov)
 
 
+def task_1(a :int, b :int) -> int:
+    if isinstance(a, int) and isinstance(b, int):
+        result = 0 if (a + b) > 0 else -1
+        return result
+    else:
+        return 1
+print(task_1(1,3))
+
+print(task_1("dd",3))
+
+print(task_1(-5,0))
