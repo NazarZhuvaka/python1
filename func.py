@@ -71,7 +71,7 @@ print(task_1("dd",3))
 print(task_1(-5,0))
 
 # ______________________
-# LEGB global , nonlocal
+# LEGBdir() global , nonlocal
 from lesson5 import list_1
 
 def square(base):
@@ -100,3 +100,4 @@ def outer_func():
 
 print(outer_func())
 
+# __main__
