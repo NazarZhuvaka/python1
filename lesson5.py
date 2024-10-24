@@ -32,3 +32,19 @@ first_dict = {
 print(first_dict, first_dict['second'])
 first_dict['Name'] = "Nazar"
 print(first_dict , len(first_dict))
+
+letters = ['a', 'b', 'c', 'd']
+print(letters[:3])
+letters.insert(3, 'zero')
+print(letters)
+
+one = 24,
+print(type(one))
+
+list_1 = [
+    lambda x: pow(x, 0),
+    lambda x: pow(x, 1),
+    lambda x: pow(x, 2),
+    lambda x: pow(x, 3),
+]
+
