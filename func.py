@@ -1,8 +1,3 @@
-from functools import total_ordering
-
-from main import result
-
-
 def firstF(text):
     print(f"My first function in python {text}")
 
@@ -101,3 +96,37 @@ def outer_func():
 print(outer_func())
 
 # __main__
+
+
+# Рекурсивна функція - функція яка може себе визивати в собі
+
+def recursion_func(n):
+    if n in (1, 2):
+        return 1
+    return recursion_func(n - 1) + recursion_func(n - 2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
