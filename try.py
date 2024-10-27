@@ -16,7 +16,8 @@
 #         #     raise MyException
 #     except IndexError:
 #         print("asd")
-
+from logging import exception
+from operator import concat
 
 #__
 
@@ -66,3 +67,30 @@
 #
 # for row in file:
 #     print(row)
+
+# ls = ['hello']
+# sl ={'first':1, 'second':2}
+# file = open('111.txt')
+# try:
+#     # ls[1]
+#     # sl['first']
+#     # file.write('asd')
+#     1/5
+# except (KeyError, SyntaxError):
+#     print("LookupError")
+# except ValueError:
+#     print("error : ValueError")
+# except IndexError:
+#     print("error : IndexError")
+# else:
+#     print("Good . Коли немає виключень спрацбовує цей код")
+# finally:
+#     print('end')
+#     file.close()
+
+try:
+    with open('112.txt', 'r' , encoding="utf-8") as file:
+        content = file.read()
+        print(content)
+except FileNotFoundError:
+    print("Помилка: файл не знайдено!")
