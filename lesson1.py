@@ -1,15 +1,15 @@
 # a = True
 # if a: print("Good!")
-
-
+#
+#
 # Оператор pass
-
+#
 # if True:
 #     pass
 # print("Ahoj")
-
+#
 # Test_1
-
+#
 # number = input("write number :")
 # input вертає завжди строку(str) , тому потрбіно його переробити
 # number = input("write number :")
@@ -19,7 +19,7 @@
 #     print("Непарне")
 # else:
 #     print("Парне")
-
+#
 # number = input("write number :")
 #
 # if number.isdigit:
@@ -34,8 +34,8 @@
 #         print("Парне!")
 # else:
 #     print("This isn`t num")
-
-
-
-
-
+#
+#
+#
+#
+#

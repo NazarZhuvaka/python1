@@ -38,8 +38,8 @@ from operator import concat
 
 # for row in file:
 #     print(row)
-    # for letter in row:
-    #     print(letter)
+#     for letter in row:
+#         print(letter)
 
 
 # file.write("111111sda\n")
